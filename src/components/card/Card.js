@@ -5,7 +5,7 @@ import '../container.css';
 export const Card = ({ img, name, Population, Region, Capital }) => {
 	return (
 		<li className='item'>
-			<img className='item__img' src={img} />
+			<img alt='itemimg' className='item__img' src={img} />
 			<div className='item__box'>
 				<h1 className='item__title'>{name}</h1>
 				<p className='item__num'>
