@@ -1,7 +1,7 @@
 import "../container.css"
 import "./sorch.css"
 import searchIcon from "../imgs/icon-search-black.svg"
-const Sorch = () => {
+ export const Sorch = () => {
     const value ="Search for a country…"
     return(
        <div className="hero">
@@ -27,4 +27,3 @@ const Sorch = () => {
        </div>
     )
 }
-export default Sorch;
